@@ -1,0 +1,26 @@
+{
+    "users": [],
+    "products": [
+        {
+            "id": 1,
+            "label": "Dentifrice",
+            "price": "2.5",
+            "marque": "Oral B",
+            "isActif": true
+        }
+    ],
+    "stocks": [
+        {
+            "id": 1,
+            "movementDate": "2024-10-23T12:41:11.210Z",
+            "productId": 1,
+            "quantity": 42
+        },
+        {
+            "id": 2,
+            "movementDate": "2024-10-23T12:43:51.258Z",
+            "productId": 1,
+            "quantity": -3
+        }
+    ]
+}
