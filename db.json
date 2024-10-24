@@ -4,175 +4,175 @@
         {
             "id": 1,
             "label": "Dentifrice",
-            "price": "2.5",
+            "price": 2.5,
             "marque": "Oral B",
             "isActif": true
         },
         {
             "id": 2,
             "label": "Shampooing",
-            "price": "4.0",
+            "price": 4.0,
             "marque": "L'Oréal",
             "isActif": true
         },
         {
             "id": 3,
             "label": "Gel Douche",
-            "price": "3.0",
+            "price": 3.0,
             "marque": "Nivea",
             "isActif": true
         },
         {
             "id": 4,
             "label": "Savon",
-            "price": "1.5",
+            "price": 1.5,
             "marque": "Dove",
             "isActif": true
         },
         {
             "id": 5,
             "label": "Crème Hydratante",
-            "price": "6.0",
+            "price": 6.0,
             "marque": "Neutrogena",
             "isActif": true
         },
         {
             "id": 6,
             "label": "Lait Corporel",
-            "price": "5.5",
+            "price": 5.5,
             "marque": "Nivea",
             "isActif": true
         },
         {
             "id": 7,
             "label": "Déodorant",
-            "price": "3.5",
+            "price": 3.5,
             "marque": "Rexona",
             "isActif": true
         },
         {
             "id": 8,
             "label": "Rasoir",
-            "price": "8.0",
+            "price": 8.0,
             "marque": "Gillette",
             "isActif": true
         },
         {
             "id": 9,
             "label": "Brosse à Dents",
-            "price": "2.0",
+            "price": 2.0,
             "marque": "Colgate",
             "isActif": true
         },
         {
             "id": 10,
             "label": "Baume à Lèvres",
-            "price": "2.5",
+            "price": 2.5,
             "marque": "Labello",
             "isActif": true
         },
         {
             "id": 11,
             "label": "Shampooing Sec",
-            "price": "4.5",
+            "price": 4.5,
             "marque": "Batiste",
             "isActif": true
         },
         {
             "id": 12,
             "label": "Crème Solaire",
-            "price": "7.0",
+            "price": 7.0,
             "marque": "Avène",
             "isActif": true
         },
         {
             "id": 13,
             "label": "Mousse à Raser",
-            "price": "3.0",
+            "price": 3.0,
             "marque": "Nivea Men",
             "isActif": true
         },
         {
             "id": 14,
             "label": "Eau de Toilette",
-            "price": "15.0",
+            "price": 15.0,
             "marque": "Calvin Klein",
             "isActif": true
         },
         {
             "id": 15,
             "label": "Maquillage",
-            "price": "10.0",
+            "price": 10.0,
             "marque": "Maybelline",
             "isActif": true
         },
         {
             "id": 16,
             "label": "Vernis à Ongles",
-            "price": "5.0",
+            "price": 5.0,
             "marque": "Essie",
             "isActif": true
         },
         {
             "id": 17,
             "label": "Lingettes Démaquillantes",
-            "price": "3.5",
+            "price": 3.5,
             "marque": "Garnier",
             "isActif": true
         },
         {
             "id": 18,
             "label": "Coton-Tiges",
-            "price": "1.0",
+            "price": 1.0,
             "marque": "Johnson's",
             "isActif": true
         },
         {
             "id": 19,
             "label": "Mouchoirs en Papier",
-            "price": "1.5",
+            "price": 1.5,
             "marque": "Kleenex",
             "isActif": true
         },
         {
             "id": 20,
             "label": "Coton Démaquillant",
-            "price": "1.8",
+            "price": 1.8,
             "marque": "Demak'Up",
             "isActif": true
         },
         {
             "id": 21,
             "label": "Crème pour les Mains",
-            "price": "4.0",
+            "price": 4.0,
             "marque": "L'Occitane",
             "isActif": true
         },
         {
             "id": 22,
             "label": "Masque Visage",
-            "price": "3.5",
+            "price": 3.5,
             "marque": "Sephora",
             "isActif": true
         },
         {
             "id": 23,
             "label": "Huile pour les Cheveux",
-            "price": "7.0",
+            "price": 7.0,
             "marque": "Moroccanoil",
             "isActif": true
         },
         {
             "id": 24,
             "label": "Sérum Visage",
-            "price": "12.0",
+            "price": 12.0,
             "marque": "The Ordinary",
             "isActif": true
         },
         {
             "id": 25,
             "label": "Eau Micellaire",
-            "price": "5.0",
+            "price": 5.0,
             "marque": "Bioderma",
             "isActif": true
         }
