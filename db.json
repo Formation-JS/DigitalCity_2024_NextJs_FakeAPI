@@ -1,422 +1,467 @@
 {
-    "users": [],
-    "products": [
-        {
-            "id": 1,
-            "label": "Dentifrice",
-            "price": 2.5,
-            "marque": "Oral B",
-            "isActif": true
-        },
-        {
-            "id": 2,
-            "label": "Shampooing",
-            "price": 4.0,
-            "marque": "L'Oréal",
-            "isActif": true
-        },
-        {
-            "id": 3,
-            "label": "Gel Douche",
-            "price": 3.0,
-            "marque": "Nivea",
-            "isActif": true
-        },
-        {
-            "id": 4,
-            "label": "Savon",
-            "price": 1.5,
-            "marque": "Dove",
-            "isActif": true
-        },
-        {
-            "id": 5,
-            "label": "Crème Hydratante",
-            "price": 6.0,
-            "marque": "Neutrogena",
-            "isActif": true
-        },
-        {
-            "id": 6,
-            "label": "Lait Corporel",
-            "price": 5.5,
-            "marque": "Nivea",
-            "isActif": true
-        },
-        {
-            "id": 7,
-            "label": "Déodorant",
-            "price": 3.5,
-            "marque": "Rexona",
-            "isActif": true
-        },
-        {
-            "id": 8,
-            "label": "Rasoir",
-            "price": 8.0,
-            "marque": "Gillette",
-            "isActif": true
-        },
-        {
-            "id": 9,
-            "label": "Brosse à Dents",
-            "price": 2.0,
-            "marque": "Colgate",
-            "isActif": true
-        },
-        {
-            "id": 10,
-            "label": "Baume à Lèvres",
-            "price": 2.5,
-            "marque": "Labello",
-            "isActif": true
-        },
-        {
-            "id": 11,
-            "label": "Shampooing Sec",
-            "price": 4.5,
-            "marque": "Batiste",
-            "isActif": true
-        },
-        {
-            "id": 12,
-            "label": "Crème Solaire",
-            "price": 7.0,
-            "marque": "Avène",
-            "isActif": true
-        },
-        {
-            "id": 13,
-            "label": "Mousse à Raser",
-            "price": 3.0,
-            "marque": "Nivea Men",
-            "isActif": true
-        },
-        {
-            "id": 14,
-            "label": "Eau de Toilette",
-            "price": 15.0,
-            "marque": "Calvin Klein",
-            "isActif": true
-        },
-        {
-            "id": 15,
-            "label": "Maquillage",
-            "price": 10.0,
-            "marque": "Maybelline",
-            "isActif": true
-        },
-        {
-            "id": 16,
-            "label": "Vernis à Ongles",
-            "price": 5.0,
-            "marque": "Essie",
-            "isActif": true
-        },
-        {
-            "id": 17,
-            "label": "Lingettes Démaquillantes",
-            "price": 3.5,
-            "marque": "Garnier",
-            "isActif": true
-        },
-        {
-            "id": 18,
-            "label": "Coton-Tiges",
-            "price": 1.0,
-            "marque": "Johnson's",
-            "isActif": true
-        },
-        {
-            "id": 19,
-            "label": "Mouchoirs en Papier",
-            "price": 1.5,
-            "marque": "Kleenex",
-            "isActif": true
-        },
-        {
-            "id": 20,
-            "label": "Coton Démaquillant",
-            "price": 1.8,
-            "marque": "Demak'Up",
-            "isActif": true
-        },
-        {
-            "id": 21,
-            "label": "Crème pour les Mains",
-            "price": 4.0,
-            "marque": "L'Occitane",
-            "isActif": true
-        },
-        {
-            "id": 22,
-            "label": "Masque Visage",
-            "price": 3.5,
-            "marque": "Sephora",
-            "isActif": true
-        },
-        {
-            "id": 23,
-            "label": "Huile pour les Cheveux",
-            "price": 7.0,
-            "marque": "Moroccanoil",
-            "isActif": true
-        },
-        {
-            "id": 24,
-            "label": "Sérum Visage",
-            "price": 12.0,
-            "marque": "The Ordinary",
-            "isActif": true
-        },
-        {
-            "id": 25,
-            "label": "Eau Micellaire",
-            "price": 5.0,
-            "marque": "Bioderma",
-            "isActif": true
-        }
-    ],
-    "stocks": [
-        {
-            "id": 1,
-            "movementDate": "2024-10-01T12:41:11.210Z",
-            "productId": 1,
-            "quantity": 42
-        },
-        {
-            "id": 2,
-            "movementDate": "2024-10-02T16:43:51.258Z",
-            "productId": 1,
-            "quantity": -3
-        },
-        {
-            "id": 3,
-            "movementDate": "2024-10-03T10:30:00.000Z",
-            "productId": 2,
-            "quantity": 25
-        },
-        {
-            "id": 4,
-            "movementDate": "2024-10-04T14:20:00.000Z",
-            "productId": 2,
-            "quantity": -5
-        },
-        {
-            "id": 5,
-            "movementDate": "2024-10-05T09:15:00.000Z",
-            "productId": 3,
-            "quantity": 30
-        },
-        {
-            "id": 6,
-            "movementDate": "2024-10-06T11:45:00.000Z",
-            "productId": 3,
-            "quantity": -7
-        },
-        {
-            "id": 7,
-            "movementDate": "2024-10-07T13:50:00.000Z",
-            "productId": 4,
-            "quantity": 20
-        },
-        {
-            "id": 8,
-            "movementDate": "2024-10-08T15:10:00.000Z",
-            "productId": 4,
-            "quantity": -4
-        },
-        {
-            "id": 9,
-            "movementDate": "2024-10-09T08:00:00.000Z",
-            "productId": 5,
-            "quantity": 50
-        },
-        {
-            "id": 10,
-            "movementDate": "2024-10-10T10:30:00.000Z",
-            "productId": 5,
-            "quantity": -10
-        },
-        {
-            "id": 11,
-            "movementDate": "2024-10-11T12:00:00.000Z",
-            "productId": 6,
-            "quantity": 35
-        },
-        {
-            "id": 12,
-            "movementDate": "2024-10-12T14:00:00.000Z",
-            "productId": 6,
-            "quantity": -8
-        },
-        {
-            "id": 13,
-            "movementDate": "2024-10-13T11:30:00.000Z",
-            "productId": 7,
-            "quantity": 45
-        },
-        {
-            "id": 14,
-            "movementDate": "2024-10-14T13:00:00.000Z",
-            "productId": 7,
-            "quantity": -6
-        },
-        {
-            "id": 15,
-            "movementDate": "2024-10-15T14:30:00.000Z",
-            "productId": 8,
-            "quantity": 40
-        },
-        {
-            "id": 16,
-            "movementDate": "2024-10-16T16:00:00.000Z",
-            "productId": 8,
-            "quantity": -9
-        },
-        {
-            "id": 17,
-            "movementDate": "2024-10-17T09:45:00.000Z",
-            "productId": 9,
-            "quantity": 60
-        },
-        {
-            "id": 18,
-            "movementDate": "2024-10-17T11:15:00.000Z",
-            "productId": 9,
-            "quantity": -12
-        },
-        {
-            "id": 19,
-            "movementDate": "2024-10-17T12:45:00.000Z",
-            "productId": 10,
-            "quantity": 55
-        },
-        {
-            "id": 20,
-            "movementDate": "2024-10-18T04:15:00.000Z",
-            "productId": 10,
-            "quantity": -11
-        },
-        {
-            "id": 21,
-            "movementDate": "2024-10-18T08:30:00.000Z",
-            "productId": 11,
-            "quantity": 25
-        },
-        {
-            "id": 22,
-            "movementDate": "2024-10-18T10:00:00.000Z",
-            "productId": 11,
-            "quantity": -5
-        },
-        {
-            "id": 23,
-            "movementDate": "2024-10-18T11:30:00.000Z",
-            "productId": 12,
-            "quantity": 20
-        },
-        {
-            "id": 24,
-            "movementDate": "2024-10-18T13:00:00.000Z",
-            "productId": 12,
-            "quantity": -4
-        },
-        {
-            "id": 25,
-            "movementDate": "2024-10-19T10:15:00.000Z",
-            "productId": 13,
-            "quantity": 35
-        },
-        {
-            "id": 26,
-            "movementDate": "2024-10-19T11:00:00.000Z",
-            "productId": 14,
-            "quantity": 15
-        },
-        {
-            "id": 27,
-            "movementDate": "2024-10-19T12:30:00.000Z",
-            "productId": 14,
-            "quantity": -3
-        },
-        {
-            "id": 28,
-            "movementDate": "2024-10-19T14:00:00.000Z",
-            "productId": 15,
-            "quantity": 40
-        },
-        {
-            "id": 29,
-            "movementDate": "2024-10-19T15:30:00.000Z",
-            "productId": 15,
-            "quantity": -8
-        },
-        {
-            "id": 30,
-            "movementDate": "2024-10-20T10:00:00.000Z",
-            "productId": 16,
-            "quantity": 25
-        },
-        {
-            "id": 31,
-            "movementDate": "2024-10-20T11:30:00.000Z",
-            "productId": 16,
-            "quantity": -5
-        },
-        {
-            "id": 32,
-            "movementDate": "2024-10-21T09:45:00.000Z",
-            "productId": 17,
-            "quantity": 30
-        },
-        {
-            "id": 33,
-            "movementDate": "2024-10-21T11:15:00.000Z",
-            "productId": 17,
-            "quantity": -4
-        },
-        {
-            "id": 34,
-            "movementDate": "2024-10-23T12:45:00.000Z",
-            "productId": 18,
-            "quantity": 20
-        },
-        {
-            "id": 35,
-            "movementDate": "2024-10-23T14:15:00.000Z",
-            "productId": 18,
-            "quantity": -2
-        },
-        {
-            "id": 36,
-            "movementDate": "2024-10-24T10:10:10.000Z",
-            "productId": 20,
-            "quantity": 10
-        },
-        {
-            "id": 37,
-            "movementDate": "2024-10-24T10:10:10.000Z",
-            "productId": 21,
-            "quantity": 10
-        },
-        {
-            "id": 38,
-            "movementDate": "2024-10-24T10:10:10.000Z",
-            "productId": 23,
-            "quantity": 10
-        },
-        {
-            "id": 39,
-            "movementDate": "2024-10-24T10:10:10.000Z",
-            "productId": 24,
-            "quantity": 10
-        },
-        {
-            "id": 40,
-            "movementDate": "2024-10-24T10:10:10.000Z",
-            "productId": 25,
-            "quantity": 10
-        }
-    ]    
+  "users": [
+    {
+      "email": "della.duck@logal.be",
+      "password": "$2a$10$740eBu65.qoe3wXRyjTeIuaxfgbsX7BuR9ou52j7pihoC41hxHIla",
+      "id": 1
+    },
+    {
+      "email": "zaza.vanderquack@logal.be",
+      "password": "$2a$10$9GvadjdEgiVq.fUI52XdtOqc/nHeyWijbA42EH1/X2/0wg2qoVu8u",
+      "id": 2
+    },
+    {
+      "email": "balthazar.picsou@logal.be",
+      "password": "$2a$10$aXSIE2MGrr6s5DqNRA2wj.Edq0EW2KuPa0RaFO5P8bm18NT8HipNO",
+      "id": 3
+    },
+    {
+      "email": "gontran.bonheur@logal.be",
+      "password": "$2a$10$VI1UMyFZiYgeiQ5B02jhQe0jIjWbjGy2buHYtYjkWXOk9ujQDrdJ.",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "label": "Dentifrice",
+      "price": 2.5,
+      "marque": "Oral B",
+      "isActif": true
+    },
+    {
+      "id": 2,
+      "label": "Shampooing",
+      "price": 4,
+      "marque": "L'Oréal",
+      "isActif": true
+    },
+    {
+      "id": 3,
+      "label": "Gel Douche",
+      "price": 3,
+      "marque": "Nivea",
+      "isActif": true
+    },
+    {
+      "id": 4,
+      "label": "Savon",
+      "price": 1.5,
+      "marque": "Dove",
+      "isActif": true
+    },
+    {
+      "id": 5,
+      "label": "Crème Hydratante",
+      "price": 6,
+      "marque": "Neutrogena",
+      "isActif": true
+    },
+    {
+      "id": 6,
+      "label": "Lait Corporel",
+      "price": 5.5,
+      "marque": "Nivea",
+      "isActif": true
+    },
+    {
+      "id": 7,
+      "label": "Déodorant",
+      "price": 3.5,
+      "marque": "Rexona",
+      "isActif": true
+    },
+    {
+      "id": 8,
+      "label": "Rasoir",
+      "price": 8,
+      "marque": "Gillette",
+      "isActif": true
+    },
+    {
+      "id": 9,
+      "label": "Brosse à Dents",
+      "price": 2,
+      "marque": "Colgate",
+      "isActif": true
+    },
+    {
+      "id": 10,
+      "label": "Baume à Lèvres",
+      "price": 2.5,
+      "marque": "Labello",
+      "isActif": true
+    },
+    {
+      "id": 11,
+      "label": "Shampooing Sec",
+      "price": 4.5,
+      "marque": "Batiste",
+      "isActif": true
+    },
+    {
+      "id": 12,
+      "label": "Crème Solaire",
+      "price": 7,
+      "marque": "Avène",
+      "isActif": true
+    },
+    {
+      "id": 13,
+      "label": "Mousse à Raser",
+      "price": 3,
+      "marque": "Nivea Men",
+      "isActif": true
+    },
+    {
+      "id": 14,
+      "label": "Eau de Toilette",
+      "price": 15,
+      "marque": "Calvin Klein",
+      "isActif": true
+    },
+    {
+      "id": 15,
+      "label": "Maquillage",
+      "price": 10,
+      "marque": "Maybelline",
+      "isActif": true
+    },
+    {
+      "id": 16,
+      "label": "Vernis à Ongles",
+      "price": 5,
+      "marque": "Essie",
+      "isActif": true
+    },
+    {
+      "id": 17,
+      "label": "Lingettes Démaquillantes",
+      "price": 3.5,
+      "marque": "Garnier",
+      "isActif": true
+    },
+    {
+      "id": 18,
+      "label": "Coton-Tiges",
+      "price": 1,
+      "marque": "Johnson's",
+      "isActif": true
+    },
+    {
+      "id": 19,
+      "label": "Mouchoirs en Papier",
+      "price": 1.5,
+      "marque": "Kleenex",
+      "isActif": true
+    },
+    {
+      "id": 20,
+      "label": "Coton Démaquillant",
+      "price": 1.8,
+      "marque": "Demak'Up",
+      "isActif": true
+    },
+    {
+      "id": 21,
+      "label": "Crème pour les Mains",
+      "price": 4,
+      "marque": "L'Occitane",
+      "isActif": true
+    },
+    {
+      "id": 22,
+      "label": "Masque Visage",
+      "price": 3.5,
+      "marque": "Sephora",
+      "isActif": true
+    },
+    {
+      "id": 23,
+      "label": "Huile pour les Cheveux",
+      "price": 7,
+      "marque": "Moroccanoil",
+      "isActif": true
+    },
+    {
+      "id": 24,
+      "label": "Sérum Visage",
+      "price": 12,
+      "marque": "The Ordinary",
+      "isActif": true
+    },
+    {
+      "id": 25,
+      "label": "Eau Micellaire",
+      "price": 5,
+      "marque": "Bioderma",
+      "isActif": true
+    }
+  ],
+  "stocks": [
+    {
+      "id": 1,
+      "movementDate": "2024-10-01T12:41:11.210Z",
+      "productId": 1,
+      "quantity": 42
+    },
+    {
+      "id": 2,
+      "movementDate": "2024-10-02T16:43:51.258Z",
+      "productId": 1,
+      "quantity": -3
+    },
+    {
+      "id": 3,
+      "movementDate": "2024-10-03T10:30:00.000Z",
+      "productId": 2,
+      "quantity": 25
+    },
+    {
+      "id": 4,
+      "movementDate": "2024-10-04T14:20:00.000Z",
+      "productId": 2,
+      "quantity": -5
+    },
+    {
+      "id": 5,
+      "movementDate": "2024-10-05T09:15:00.000Z",
+      "productId": 3,
+      "quantity": 30
+    },
+    {
+      "id": 6,
+      "movementDate": "2024-10-06T11:45:00.000Z",
+      "productId": 3,
+      "quantity": -7
+    },
+    {
+      "id": 7,
+      "movementDate": "2024-10-07T13:50:00.000Z",
+      "productId": 4,
+      "quantity": 20
+    },
+    {
+      "id": 8,
+      "movementDate": "2024-10-08T15:10:00.000Z",
+      "productId": 4,
+      "quantity": -4
+    },
+    {
+      "id": 9,
+      "movementDate": "2024-10-09T08:00:00.000Z",
+      "productId": 5,
+      "quantity": 50
+    },
+    {
+      "id": 10,
+      "movementDate": "2024-10-10T10:30:00.000Z",
+      "productId": 5,
+      "quantity": -10
+    },
+    {
+      "id": 11,
+      "movementDate": "2024-10-11T12:00:00.000Z",
+      "productId": 6,
+      "quantity": 35
+    },
+    {
+      "id": 12,
+      "movementDate": "2024-10-12T14:00:00.000Z",
+      "productId": 6,
+      "quantity": -8
+    },
+    {
+      "id": 13,
+      "movementDate": "2024-10-13T11:30:00.000Z",
+      "productId": 7,
+      "quantity": 45
+    },
+    {
+      "id": 14,
+      "movementDate": "2024-10-14T13:00:00.000Z",
+      "productId": 7,
+      "quantity": -6
+    },
+    {
+      "id": 15,
+      "movementDate": "2024-10-15T14:30:00.000Z",
+      "productId": 8,
+      "quantity": 40
+    },
+    {
+      "id": 16,
+      "movementDate": "2024-10-16T16:00:00.000Z",
+      "productId": 8,
+      "quantity": -9
+    },
+    {
+      "id": 17,
+      "movementDate": "2024-10-17T09:45:00.000Z",
+      "productId": 9,
+      "quantity": 60
+    },
+    {
+      "id": 18,
+      "movementDate": "2024-10-17T11:15:00.000Z",
+      "productId": 9,
+      "quantity": -12
+    },
+    {
+      "id": 19,
+      "movementDate": "2024-10-17T12:45:00.000Z",
+      "productId": 10,
+      "quantity": 55
+    },
+    {
+      "id": 20,
+      "movementDate": "2024-10-18T04:15:00.000Z",
+      "productId": 10,
+      "quantity": -11
+    },
+    {
+      "id": 21,
+      "movementDate": "2024-10-18T08:30:00.000Z",
+      "productId": 11,
+      "quantity": 25
+    },
+    {
+      "id": 22,
+      "movementDate": "2024-10-18T10:00:00.000Z",
+      "productId": 11,
+      "quantity": -5
+    },
+    {
+      "id": 23,
+      "movementDate": "2024-10-18T11:30:00.000Z",
+      "productId": 12,
+      "quantity": 20
+    },
+    {
+      "id": 24,
+      "movementDate": "2024-10-18T13:00:00.000Z",
+      "productId": 12,
+      "quantity": -4
+    },
+    {
+      "id": 25,
+      "movementDate": "2024-10-19T10:15:00.000Z",
+      "productId": 13,
+      "quantity": 35
+    },
+    {
+      "id": 26,
+      "movementDate": "2024-10-19T11:00:00.000Z",
+      "productId": 14,
+      "quantity": 15
+    },
+    {
+      "id": 27,
+      "movementDate": "2024-10-19T12:30:00.000Z",
+      "productId": 14,
+      "quantity": -3
+    },
+    {
+      "id": 28,
+      "movementDate": "2024-10-19T14:00:00.000Z",
+      "productId": 15,
+      "quantity": 40
+    },
+    {
+      "id": 29,
+      "movementDate": "2024-10-19T15:30:00.000Z",
+      "productId": 15,
+      "quantity": -8
+    },
+    {
+      "id": 30,
+      "movementDate": "2024-10-20T10:00:00.000Z",
+      "productId": 16,
+      "quantity": 25
+    },
+    {
+      "id": 31,
+      "movementDate": "2024-10-20T11:30:00.000Z",
+      "productId": 16,
+      "quantity": -5
+    },
+    {
+      "id": 32,
+      "movementDate": "2024-10-21T09:45:00.000Z",
+      "productId": 17,
+      "quantity": 30
+    },
+    {
+      "id": 33,
+      "movementDate": "2024-10-21T11:15:00.000Z",
+      "productId": 17,
+      "quantity": -4
+    },
+    {
+      "id": 34,
+      "movementDate": "2024-10-23T12:45:00.000Z",
+      "productId": 18,
+      "quantity": 20
+    },
+    {
+      "id": 35,
+      "movementDate": "2024-10-23T14:15:00.000Z",
+      "productId": 18,
+      "quantity": -2
+    },
+    {
+      "id": 36,
+      "movementDate": "2024-10-24T10:10:10.000Z",
+      "productId": 20,
+      "quantity": 10
+    },
+    {
+      "id": 37,
+      "movementDate": "2024-10-24T10:10:10.000Z",
+      "productId": 21,
+      "quantity": 10
+    },
+    {
+      "id": 38,
+      "movementDate": "2024-10-24T10:10:10.000Z",
+      "productId": 23,
+      "quantity": 10
+    },
+    {
+      "id": 39,
+      "movementDate": "2024-10-24T10:10:10.000Z",
+      "productId": 24,
+      "quantity": 10
+    },
+    {
+      "id": 40,
+      "movementDate": "2024-10-24T10:10:10.000Z",
+      "productId": 25,
+      "quantity": 10
+    },
+    {
+      "id": 41,
+      "movementDate": "2024-10-24T12:07:10.000Z",
+      "productId": 25,
+      "quantity": 10
+    },
+    {
+      "id": 42,
+      "movementDate": "2024-10-24T12:07:11.000Z",
+      "productId": 1,
+      "quantity": -5
+    },
+    {
+      "id": 43,
+      "movementDate": "2024-10-24T12:02:11.000Z",
+      "productId": 1,
+      "quantity": 9
+    },
+    {
+      "id": 44,
+      "movementDate": "2024-10-24T13:02:11.000Z",
+      "productId": 9,
+      "quantity": 40
+    }
+  ]
 }
